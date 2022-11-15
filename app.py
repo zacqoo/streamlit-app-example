@@ -2,10 +2,9 @@ import streamlit as st
 import pandas as pd
 import time
 import pickle
-#from sklearn.preprocessing import StandardScaler
-#from xgboost import XGBRegressor
+#from sklearn.ensemble import RandomForestRegressor
 
-pickle_in = open('pipe.pkl', 'rb')
+pickle_in = open('model.pkl', 'rb')
 classifier = pickle.load(pickle_in)
 st.title("Case Count Predictor")
 
