@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import time
 import pickle
-from sklearn.preprocessing import StandardScaler
-from xgboost import XGBRegressor
+#from sklearn.preprocessing import StandardScaler
+#from xgboost import XGBRegressor
 
 pickle_in = open('pipe.pkl', 'rb')
 classifier = pickle.load(pickle_in)
