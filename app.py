@@ -6,7 +6,7 @@ import joblib
 
 #pickle_in = open('model.pkl', 'rb')
 #classifier = pickle.load(pickle_in)
-classifier = jobjob.load('model.pkl')
+classifier = jobjib.load('model.pkl')
 st.title("Case Count Predictor")
 
 #classifier.load_model('model.json')
